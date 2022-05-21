@@ -22,9 +22,11 @@ object Versions {
     // Android Compose
     const val ANDROID_COMPOSE = "1.1.1"
     const val ANDROID_COMPOSE_ACTIVITY = "1.4.0"
-    
-    const val KOTLIN = "1.5.31"
-    const val COROUTINE = "1.5.2"
+    const val ANDROID_COMPOSE_CONSTRAINT_LAYOUT = "1.0.1"
+    // Kotlin
+    const val KOTLIN = "1.6.10"
+    const val COROUTINE = "1.6.1"
+    // Test
     const val JUNIT = "4.13.2"
     const val TRUTH = "1.1.2"
     const val ROBOLECTRIC = "4.4.1"

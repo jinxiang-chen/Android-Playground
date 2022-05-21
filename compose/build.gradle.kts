@@ -1,8 +1,6 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-android")
-    id("kotlin-parcelize")
 }
 
 android {
@@ -16,6 +14,9 @@ android {
         versionName = "1.0.0"
         applicationId = "fu.playgorund.compose"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary = true
+        }
     }
     buildTypes {
         getByName("debug") {
@@ -36,6 +37,15 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = Versions.ANDROID_COMPOSE
+    }
+    packagingOptions {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
     }
 }
 
@@ -64,8 +74,6 @@ dependencies {
     implementation(Dependencies.ANDROID_KTX_CORE)
     implementation(Dependencies.ANDROID_APPCOMPAT)
     implementation(Dependencies.ANDROID_CONSTRAINT_LAYOUT)
-    implementation(Dependencies.ANDROID_RECYCLERVIEW)
-    implementation(Dependencies.ANDROID_ANNOTATION)
     implementation(Dependencies.ANDROID_MATERIAL)
     // android compose
     implementation(Dependencies.ANDROID_COMPOSE_UI)
@@ -73,4 +81,7 @@ dependencies {
     implementation(Dependencies.ANDROID_COMPOSE_UI_TOOLS_PREVIEW)
     implementation(Dependencies.ANDROID_COMPOSE_RUNTIME_LIVEDATA)
     implementation(Dependencies.ANDROID_COMPOSE_ACTIVITY)
+    implementation(Dependencies.ANDROID_COMPOSE_CONSTRAINT_LAYOUT)
+    debugImplementation(Dependencies.ANDROID_COMPOSE_UI_TOOLS)
+    
 }
