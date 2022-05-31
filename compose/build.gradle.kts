@@ -79,6 +79,7 @@ dependencies {
     implementation(Dependencies.ANDROID_COMPOSE_UI)
     implementation(Dependencies.ANDROID_COMPOSE_MATERIAL)
     implementation(Dependencies.ANDROID_COMPOSE_UI_TOOLS_PREVIEW)
+    implementation(Dependencies.ANDROID_COMPOSE_RUNTIME)
     implementation(Dependencies.ANDROID_COMPOSE_RUNTIME_LIVEDATA)
     implementation(Dependencies.ANDROID_COMPOSE_ACTIVITY)
     implementation(Dependencies.ANDROID_COMPOSE_CONSTRAINT_LAYOUT)

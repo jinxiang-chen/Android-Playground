@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android-Playground</string>
+    <string name="stock">Stock</string>
+    <string name="stock_sample">Stock範例</string>
 </resources>
