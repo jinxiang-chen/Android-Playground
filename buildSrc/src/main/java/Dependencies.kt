@@ -44,9 +44,11 @@ object Dependencies {
     const val ANDROID_COMPOSE_UI = "androidx.compose.ui:ui:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_MATERIAL = "androidx.compose.material:material:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_UI_TOOLS = "androidx.compose.ui:ui-tooling:${Versions.ANDROID_COMPOSE}"
+    const val ANDROID_COMPOSE_UI_TEST_MANIFEST = "androidx.compose.ui:ui-test-manifest:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_UI_TOOLS_PREVIEW = "androidx.compose.ui:ui-tooling-preview:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_RUNTIME = "androidx.compose.runtime:runtime:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_RUNTIME_LIVEDATA = "androidx.compose.runtime:runtime-livedata:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_ACTIVITY = "androidx.activity:activity-compose:${Versions.ANDROID_COMPOSE_ACTIVITY}"
     const val ANDROID_COMPOSE_CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout-compose:${Versions.ANDROID_COMPOSE_CONSTRAINT_LAYOUT}"
+    const val ANDROID_COMPOSE_JUNIT = "androidx.compose.ui:ui-test-junit4:${Versions.ANDROID_COMPOSE}"
 }

@@ -70,6 +70,7 @@ dependencies {
     androidTestImplementation(Dependencies.ANDROID_TEST_RULES)
     androidTestImplementation(Dependencies.ANDROID_TEST_JUNIT)
     androidTestImplementation(Dependencies.ANDROID_TEST_ESPRESSO_CORE)
+    androidTestImplementation(Dependencies.ANDROID_COMPOSE_JUNIT)
     //android
     implementation(Dependencies.ANDROID_KTX_CORE)
     implementation(Dependencies.ANDROID_APPCOMPAT)
@@ -84,5 +85,5 @@ dependencies {
     implementation(Dependencies.ANDROID_COMPOSE_ACTIVITY)
     implementation(Dependencies.ANDROID_COMPOSE_CONSTRAINT_LAYOUT)
     debugImplementation(Dependencies.ANDROID_COMPOSE_UI_TOOLS)
-    
+    debugImplementation(Dependencies.ANDROID_COMPOSE_UI_TEST_MANIFEST)
 }
