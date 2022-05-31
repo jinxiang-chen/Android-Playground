@@ -17,6 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import fu.android_playground.ui.theme.ComposeTheme
 import fu.android_playground.view.column.ColumnActivity
 import fu.android_playground.view.constraintlayout.ConstraintLayoutActivity
+import fu.android_playground.view.login.LoginActivity
 import fu.android_playground.view.row.RowActivity
 
 class MainActivity : ComponentActivity() {
@@ -57,6 +58,12 @@ fun Content() {
             context.startActivity(intent)
         }) {
             Text(text = "展示ConstraintLayout")
+        }
+        Button(onClick = {
+            val intent = Intent(context, LoginActivity::class.java)
+            context.startActivity(intent)
+        }) {
+            Text(text = "登入")
         }
     }
 }
