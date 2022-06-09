@@ -7,7 +7,7 @@ import fu.trainnin.stateincompose.ui.theme.AndroidPlaygroundTheme
 
 @Composable
 fun WellnessScreen(modifier: Modifier = Modifier) {
-    WaterCounter(modifier = modifier)
+    StatefulCounter(modifier = modifier)
 }
 
 @Preview
