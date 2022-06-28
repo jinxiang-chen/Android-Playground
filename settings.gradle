@@ -16,3 +16,5 @@ rootProject.name = "Android-Playground"
 include ':compose'
 include ':codelabcompsebasic'
 include ':stateincompose'
+include ':performance'
+include ':performancebenchmark'

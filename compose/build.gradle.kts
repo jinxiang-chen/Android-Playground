@@ -22,7 +22,12 @@ android {
         getByName("debug") {
             isMinifyEnabled = false
         }
-        
+        create("benchmark") {
+            signingConfig = signingConfigs.getByName("debug")
+            matchingFallbacks += listOf("release")
+            isDebuggable = false
+        }
+    
         getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = true
