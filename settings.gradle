@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Android-Playground"
 include ':compose'
 include ':codelabcompsebasic'
+include ':stateincompose'

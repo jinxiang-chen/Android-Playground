@@ -23,6 +23,7 @@ object Versions {
     const val ANDROID_COMPOSE = "1.1.1"
     const val ANDROID_COMPOSE_ACTIVITY = "1.4.0"
     const val ANDROID_COMPOSE_CONSTRAINT_LAYOUT = "1.0.1"
+    const val ANDROID_COMPOSE_VIEW_MODEL = "2.4.1"
     // Kotlin
     const val KOTLIN = "1.6.10"
     const val COROUTINE = "1.6.1"

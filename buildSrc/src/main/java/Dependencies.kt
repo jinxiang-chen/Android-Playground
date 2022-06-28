@@ -48,6 +48,7 @@ object Dependencies {
     const val ANDROID_COMPOSE_UI_TOOLS_PREVIEW = "androidx.compose.ui:ui-tooling-preview:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_RUNTIME = "androidx.compose.runtime:runtime:${Versions.ANDROID_COMPOSE}"
     const val ANDROID_COMPOSE_RUNTIME_LIVEDATA = "androidx.compose.runtime:runtime-livedata:${Versions.ANDROID_COMPOSE}"
+    const val ANDROID_COMPOSE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-compose:${Versions.ANDROID_COMPOSE_VIEW_MODEL}"
     const val ANDROID_COMPOSE_ACTIVITY = "androidx.activity:activity-compose:${Versions.ANDROID_COMPOSE_ACTIVITY}"
     const val ANDROID_COMPOSE_CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout-compose:${Versions.ANDROID_COMPOSE_CONSTRAINT_LAYOUT}"
     const val ANDROID_COMPOSE_JUNIT = "androidx.compose.ui:ui-test-junit4:${Versions.ANDROID_COMPOSE}"
