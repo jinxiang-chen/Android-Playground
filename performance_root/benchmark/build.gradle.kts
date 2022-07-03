@@ -33,7 +33,7 @@ android {
         }
     }
     
-    targetProjectPath = ":performance"
+    targetProjectPath = ":performance_root:performance"
     experimentalProperties["android.experimental.self-instrumenting"] = true
 }
 

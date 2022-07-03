@@ -1,4 +1,4 @@
-package fu.trainnin.performancebenchmark
+package fu.trainnin.benchmark
 
 import androidx.benchmark.macro.ExperimentalBaselineProfilesApi
 import androidx.benchmark.macro.junit4.BaselineProfileRule
