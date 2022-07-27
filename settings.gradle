@@ -14,8 +14,9 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Android-Playground"
 include ":compose"
-include ":codelabcompsebasic"
-include ":stateincompose"
+include ":compose:compose_playground"
+include ":compose:codelabcompsebasic"
+include ":compose:stateincompose"
 include ":performance_root"
 include ":performance_root:performance"
 include ":performance_root:benchmark"
